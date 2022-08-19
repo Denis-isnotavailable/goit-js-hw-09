@@ -50,6 +50,15 @@ function startTimer(e) {
         }
 
         timeCounting(timing);
+
+
+        // Shorter variant
+        // const timeX = Number.parseInt(daysEl.textContent) * 24 * 60 * 60 * 1000
+        //     + Number.parseInt(hoursEl.textContent) * 60 * 60 * 1000
+        //     + Number.parseInt(minutesEl.textContent) * 60 * 1000
+        //     + Number.parseInt(secondsEl.textContent) * 1000;
+        
+        // const timing = convertMs(timeX - 1);
         
         showTime(timing);
 
